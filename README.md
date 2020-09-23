@@ -12,4 +12,4 @@ In both projects, the initial price and amount of bottles in the vending machine
 I emphasized the listed states and actions of the vending machine because each developer should have similar states in order to represent the vending machine, which is the 4 states. In the MVC project, I created a service interface that is implemented by the serviceImpl class, and can be implemented furthermore if there are other 'versions' of vending machines. 
 
 
-Each interface requires most importantly to use checkStatus() to check the state of the vending machine, and is required to return one of the 4 states (NO_QUARTER, HAS_QUARTER, SOLD, SOLDOUT).
+The service/VendingMachine interface requires most importantly to use checkStatus() to check/return the state of the vending machine, and is required to return one of the 4 states (NO_QUARTER, HAS_QUARTER, SOLD, SOLDOUT) to let the user/client know.
