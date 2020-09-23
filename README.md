@@ -13,3 +13,7 @@ I emphasized the listed states and actions of the vending machine because each d
 
 
 The service/VendingMachine interface requires most importantly to use checkStatus() to check/return the state of the vending machine, and is required to return one of the 4 states (NO_QUARTER, HAS_QUARTER, SOLD, SOLDOUT) to let the user/client know.
+
+Please let me know if there were other features/standards that you wanted me to display if it was missing in this project collection.
+
+Thank you.
